@@ -1,0 +1,32 @@
+
+/* Para el titulo rincipal del blog.*/
+.tituloBlog {
+    font-size: 25px;
+    color: slategrey;
+    text-align: center;
+}
+
+/* Para los subtitulos del blog.*/
+.subTitulosBlog {
+    color:green;
+}
+
+/* Para los parrafos*/
+p {
+    text-align: justify;
+    color: black;
+}
+
+/* Selector universal (letra)*/
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#rojo{
+    color: red;
+}
+
+.regresaIndice{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: right;
+}
