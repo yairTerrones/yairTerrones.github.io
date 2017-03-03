@@ -1,9 +1,14 @@
 
 /* Para el titulo rincipal del blog.*/
 .tituloBlog {
-    font-size: 25px;
-    color: slategrey;
-    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: left;
+}
+
+body {
+    background-image: url("fondoIndex.jpg");
 }
 
 /* Para los subtitulos del blog.*/
@@ -19,7 +24,9 @@ p {
 
 /* Selector universal (letra)*/
 * {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+    /*background-color: Lavender ;*/
+    /*background-image: */
 }
 
 #rojo{
