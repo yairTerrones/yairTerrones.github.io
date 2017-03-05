@@ -3,21 +3,59 @@
 .tituloBlog {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
-    color: white;
-    text-align: left;
+    border: 1px;
+    color: DarkSlateGrey ;
+    text-align: center;
 }
 
-body {
-    background-image: url("fondoIndex.jpg");
+h2{
+    font-family: Courier New, Courier, monospace;
+    font-size: 25px;
+    margin: 20px;
+    color: black;
 }
 
-/* Para los subtitulos del blog.*/
-.subTitulosBlog {
-    color:green;
+ul,ol,dl {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    text-align: justify;
+    color: black;
+}
+
+body{
+    background: red;
+}
+
+#contenedor{ 
+    width: 1000px;
+    background-color: FireBrick;
+}
+
+.links{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.caja {
+    padding: 20px;
+    margin: 10px;
+    color: darkblue;
+    border: solid 0.5px;
+    background: lightskyblue;
+}
+
+.Descripcion{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    color: black;
 }
 
 /* Para los parrafos*/
 p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
     text-align: justify;
     color: black;
 }
