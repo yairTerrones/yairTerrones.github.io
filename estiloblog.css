@@ -3,6 +3,7 @@
 .tituloBlog {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
+    background-color:white;
     border: 1px;
     color: DarkSlateGrey ;
     text-align: center;
@@ -23,12 +24,15 @@ ul,ol,dl {
 }
 
 body{
-    background: red;
+    /*background: red;*/
+    background-image: url("fondoIndex.jpg");
 }
 
 #contenedor{ 
     width: 1000px;
-    background-color: FireBrick;
+    background-color: white; /*FireBrick*/
+    opacity: 0.7;
+    margin: 0 auto;
 }
 
 .links{
@@ -55,7 +59,7 @@ body{
 /* Para los parrafos*/
 p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 20px;
+    margin: 50px;
     text-align: justify;
     color: black;
 }

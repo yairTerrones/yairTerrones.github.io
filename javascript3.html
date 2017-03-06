@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Introducción.</title>
+    <link rel="stylesheet" href="estiloblog.css">
+</head>
+<body>
+    <section id="contenedor">
+        <div class="tituloBlog">
+            <h1>JavaScript (parte 3).</h1>
+        </div>
+        <div>
+            <article>
+                <h2>Arreglos en JavaScript. </h2>
+                <p>En los arreglos podemos realizar diversas cosas.</p>
+                <ul>
+                    <li>Creacion.</li>
+                    <li>Acceso.</li>
+                    <li>Propiedades.</li>
+                    <li>Iteracion.</li>
+                    <li>Caracteristicas especiales (Heterogeneos o Jagged(dentado))</li>
+                    <li>Metodos</li>
+                </ul>
+
+                <h2>Creacion.</h2>
+                <p>var arreglo = new Array(); <br>
+                   var arreglo = [];<br>
+                   En estas formas anteriores creamos dos arreglo vacios. <br></p>
+
+                   <p>Ejemplo de arreglos con datos: <br>
+                      var array = new Array('Hola','adios','cadena','vacios') <br><br>
+                      En los arreglos heterogeneos podemos tener mas de un tipo almacenado en el arreglo por ejemplo: <br>
+                      var array = new Array('Hola',true,5,'vacios') <br><br>
+                      Para acceder a un elemnto del arreglo usamos la notacion arreglo[indice], donde indice es la posicion del arreglo ala cual queremos acceder, esto nos cituara en la posicion que deseamos en el arreglo siempre y cuando exista en el arreglo. <br>
+                      Tomando el ejemplo anterior , var array = new Array('Hola',true,5,'vacios') si queremos acceder ala posicion 3, por ejemplo, esto se denotaria asi: <br><br>
+                      var aux = array[2]; , debemos recorar que los arreglos inician en cero (0), el valor de elemnto 3 se le asignara a la variable auxiliar aux.</p>
+
+                    <p>Podemos tambien crear arreglos de arreglos y se crean de la siguiente manera: <br>
+                         var matriz = [[1,2,3],[4,5,6]];   ---> de esta manera tenemos un arreglo de arreglos.</p>
+
+                    <p>Arreglo dentados: <br>
+                       Esto falta..... <br></p>
+        </div>
+
+        <div>
+            <article>
+                <h2>Métodos.</h2>
+                <p>En JavaScript podemos hacer uso de diferentes métodos como los siguientes:</p>
+                <dl>
+                    <dt>Concat().</dt>
+                    <dd>a.concat(b), este metodo nos devuelve otro arreglo.</dd>
+                    <dt>Join()</dt>
+                    <dd>Este metodo nos ayuda a unir todos los elementos de un arreglo en una cadena de caracteres.</dd>
+                    <dt>push()</dt>
+                    <dd>Este metodo agrega un elemento al final del arreglo.</dd>
+                    <dt>pop()</dt>
+                    <dd>Este metodo elimina el ultimo elemento del arreglo.</dd>
+                    <dt>reverse()</dt>
+                    <dd>Este metodo regresa un arreglo con los elementos invertidos (orden invertido)</dd>
+                    <dt>sort()</dt>
+                    <dd>Este metodo ordena los elementos de una manera ascendente tratandolos como cadenas.</dd>
+                    <dt>shift()</dt>
+                    <dd>Elimina el elemento que se encuentra al inicio.</dd>
+                    <dt>unshift()</dt>
+                    <dd>Inserta un elemento al inicio del arreglo. </dd>
+                    <dt>splice()</dt>
+                    <dd>Agrega o elimina.</dd>
+                    <dt>slice()</dt>
+                    <dd>Esxtrae un sub arreglo.</dd>
+                    <dt>indexOf()</dt>
+                    <dd>FALTA.</dd>
+                    <dt>foreach()</dt>
+                    <dd>FALTA.</dd>
+                </dl>
+            </article>
+        </div>
+    </section>
+</body>
+</html>
