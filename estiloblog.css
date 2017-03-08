@@ -26,6 +26,7 @@ ul,ol,dl {
 body{
     /*background: red;*/
     background-image: url("fondoIndex.jpg");
+    /*overflow: hidden;*/
 }
 
 #contenedor{ 
@@ -33,13 +34,15 @@ body{
     background-color: white; /*FireBrick*/
     opacity: 0.7;
     margin: 0 auto;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: scroll;
 }
 
 .links{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
     margin: 10px;
+    float: left;
 }
 
 .caja {
