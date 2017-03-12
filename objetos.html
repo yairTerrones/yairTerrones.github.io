@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Objetos en HTML.</title>
+    <link rel="stylesheet" href="estiloblog.css">
+</head>
+<body>
+    <section id="contenedor">
+        <div class="tituloBlog">
+            <h1>Objetos en JavaScript.</h1>
+        </div>
+
+        <div>
+            <p>
+                JavaScript está diseñado en un paradigma basado en objetos. Un objeto es una colección de propiedades, y una propiedad es una asociación entre un nombre y un valor. Un valor de propiedad puede ser una función, la cual es conocida entonces como un método del objeto. Además de los objetos que están predefinidos en el navegador, tu puedes definir tus propios objetos.
+            </p>
+        </div>
+
+        <div>
+            <h2>Objetos y propiedades.</h2>
+            <p>
+               Un objeto de JavaScript tiene propiedades asociadas. Una propiedad de un objeto es una variable que se adjunta al objeto. Las propiedades de un objeto son basicamente lo mismo que las variables comunes de JavaScript, excepto por el nexo con el objeto. Las propiedades de un objeto definen las características de un objeto. Tú accedes a las propiedades de un objeto con una simple notación de puntos: <br> <br>
+               <b> nombreObjeto.nombrePropiedad </b>
+            </p>
+            <p>
+                Como todas las variables de JavaScript, tanto el nombre del objeto (que puede ser una variable normal) y el nombre de propiedad son sensible a mayúsculas y minúsculas. Puedes definir propiedades asignandoles un valor. Por ejemplo, vamos a crear el objeto miAuto y darle propiedades denominadas marca, modelo, y año así: <br>
+            </p>
+            <p>
+                <b>
+                var miAuto = new Object(); <br>
+                miAuto.marca = "Chevrolet"; <br>
+                miAuto.modelo = "Camaro"; <br>
+                miAuto.año = 1969; <br> </b> <br>
+                Tambien puede ser definido de la siguiente manera, Se define (y crear) un objeto JavaScript con un objeto literal: <br> <br>
+
+                <b> var miAuto = {  <br>
+                    marca:"Chevrolet", <br>
+                    modelo:"Camaro", <br>
+                    año:1969 }; <br> </b>
+            </p>
+            <p>
+                Existen dos tipos de notaciones en las propiedades la <b> notacion punto </b> y la <b> notacion corchete:</b> <br> <br>
+                <b>Notación Punto:</b>&nbsp;&nbsp;&nbsp;<i>miAuto.marca = "Chevrolet";</i> <br>
+                <b>Notación Corchete:</b>&nbsp;&nbsp;&nbsp;<i>miAuto['marca'] = "Chevrolet";</i> <br> 
+            </p>
+        </div>
+
+        <div>
+            <h2>Métodos.</h2>
+            <p>
+                Los métodos son acciones que se pueden realizar sobre los objetos. Los métodos se almacenan en propiedades como la definición de funciones.
+            </p>
+            <p>
+                 <b>Ejemplo: <br>
+                    miAuto.dameModelo = function () { <br>
+                    console.log(miAuto.modelo); <br>
+                    } <br>
+                 </b> <br>
+                 Este método imprimirá en pantalla el nombre del modelo de nuestro objeto <b>miAuto</b>, este método esta  contenido en la definición del objeto ejemplo: <br> <br>
+                    <b> var miAuto = {  <br>
+                    marca:"Chevrolet", <br>
+                    modelo:"Camaro", <br>
+                    año:1969, <br>
+                    dameModelo: function () { <br>
+                      console.log(miAuto.modelo); <br>
+                     } <br>
+                    }; <br> </b>
+            </p>
+        </div>
+
+    </section>
+</body>
+</html>
