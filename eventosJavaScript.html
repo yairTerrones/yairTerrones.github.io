@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estiloblog.css">
+    <title>Eventos en JavaScript</title>
+</head>
+<body>
+    <section id="contenedor">   
+        <div class="tituloBlog">
+            <h1>Eventos en JavaScript.</h1>
+        </div>
+        <p> 
+            En este modelo, cada elemento o etiqueta XHTML define su propia lista de posibles eventos que se le pueden asignar. Un mismo tipo de evento (por ejemplo, pinchar el botón izquierdo del ratón) puede estar definido para varios elementos XHTML diferentes y un mismo elemento XHTML puede tener asociados varios eventos diferentes.
+            <br><br>
+            El nombre de cada evento se construye mediante el prefijo on, seguido del nombre en inglés de la acción asociada al evento. Así, el evento de pinchar un elemento con el ratón se denomina onclick y el evento asociado a la acción de mover el ratón se denomina onmousemove.
+        </p>
+
+        <h2>Pasos para el manejos de eventos.</h2>
+        <ol>
+            <li>Seleccionar el elemento NODO.</li>
+            <li>Indicar el evento en el elemento seleccionado.</li>
+            <li>Eescribir código (script) a ejecutar en respuesta alevento.</li>
+        </ol>
+
+        <h2>Tipos de manejadores de eventos.</h2>
+        <ol>
+            <li>Manejador HTML.</li>
+            <li>Manejador DOM tradicional.</li>
+            <li>Escuchador DOM nivel 2 (Listener).</li>
+        </ol>
+
+        <h2>Síntaxis de manejadores HTML.</h2>
+        <p>
+            &#60; elemento onevento="codigo" &#62;  contenido &#60; /elemento&#62; <br>
+            <b> Ejemplo: </b> <br>
+            &#60; a onclick="alert('Hola')" &#62;  saluda &#60; /a &#62;
+        </p>
+
+        <h2>Síntaxis de manejador DOM tradicional.</h2>
+        <p>
+            elemento.onevento = nombreFucion<br>
+            <b> Ejemplo: </b> <br>
+            document.getElementById('Enlace').onClick = function () { alert('Hola'); } <br>
+            Este tipo de manejador tiene una desventaja es que solo se puede aplicar a un elemento, <b>relacion 1 a 1 </b>.
+        </p>
+
+    </section>
+</body>
+</html>
