@@ -77,7 +77,8 @@ p {
 }
 
 .centrado {
-    align-self: center;
+    width: 250px;
+    margin: 0 auto;
 }
 
 .regresaIndice{
