@@ -1,11 +1,14 @@
 
 /* Para el titulo principal del blog.*/
 .tituloBlog {
-   /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
     background-color:white;
     color: DarkSlateGrey ;
-    text-align: center;*/
+    text-align: center;
+}
+
+.inicio {
     width: 1000px;
     height: 300px;
     border: 1px;
@@ -108,5 +111,5 @@ p {
 }
 
 #enlacesWCSS{
-    margin: 0 auto;
+    margin: 30px;
 }
