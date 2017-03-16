@@ -38,7 +38,8 @@ ul,ol,dl {
 
 body{
     /*background: red;*/
-    background-image: url("fondoIndex.jpg");
+    /*background-image: url("fondoIndex.jpg");*/
+    background-image: url("fondoDos.jpg");
     /*overflow: hidden;*/
 }
 
